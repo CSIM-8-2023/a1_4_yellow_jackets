@@ -1,0 +1,49 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="bUkXy|6oI|9-9t%:gUQO" x="0" y="0"><field name="NAME">Button.B</field><comment pinned="true" h="107" w="530">Both eyes on the smiley face blink (turn off) 4 times when the B button is pressed. After blinking the smiley face has both eyes open.</comment><statement name="HANDLER"><block type="controls_repeat_ext" id="8KJ2;?=FmEY5,{Ci1eY;"><comment pinned="false" h="68" w="413">blinks the face's right eye (left to the user) 4 times</comment><value name="TIMES"><shadow type="math_number" id="-D73i2C6SZ;+hVBzr}N@"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="%/@]E:[GgPpL36]ZOlJ+"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="gMM2l9sRa8llLSr^|5dg"><value name="pause"><shadow type="math_number" id=":~lrjOxV#RCeU$*vYmu^"><field name="NUM">100</field></shadow></value><next><block type="device_show_leds" id="}$,M?kx;a2/C}k*2xm~d"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="(B3dcQVA6/+.kD7QDRIP"><value name="pause"><shadow type="math_number" id="uSWRqO.c[|q.T.|/#Z^f"><field name="NUM">100</field></shadow></value></block></next></block></next></block></next></block></statement><next><block type="device_show_leds" id="NlVvPZ[!34Yp:N[=n9wg"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="controls_repeat_ext" id="}0]nU.zUr?aiUw}{D)|7"><comment pinned="true" h="68" w="413">blinks the face's right eye (left to the user) 4 times</comment><value name="TIMES"><shadow type="math_number" id="R_^z/rvYu8sl8kyS_HMi"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="(NmzpT9J$)eZ?qnVPlaO"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="VV^sRb]q,*}^/gT;*F;("><value name="pause"><shadow type="math_number" id="miZ;Uh=?BUWo9iwXemAC"><field name="NUM">100</field></shadow></value><next><block type="device_show_leds" id="5%_Z#Po~P:^?aWY*cJ^N"><field name="LEDS">`
+        . . . # . 
+        . . . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="nocC^XvV]gHe/f+=/s^c"><value name="pause"><shadow type="math_number" id="1xSI[rj)7b.}fa5qy!KI"><field name="NUM">100</field></shadow></value></block></next></block></next></block></next></block></statement><next><block type="controls_repeat_ext" id="RZN9l(*a)V^$}W^3Bpe|"><comment pinned="true" h="70" w="504">blinks the face's left eye (right to the user) 4 times</comment><value name="TIMES"><shadow type="math_number" id="mgTUE%M:d)=G7B*H0h7W"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="Cyp[i[Wby|w%jFMR*$?s"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="6u=fS10lUqD$M*,Rb:3X"><value name="pause"><shadow type="math_number" id=".]f2$$GTHEKh/aa%l8-:"><field name="NUM">100</field></shadow></value><next><block type="device_show_leds" id="YzNxqS~wJwdaJ!+$3WSv"><field name="LEDS">`
+        . # . . . 
+        . # . . . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="!^7kV[86G1cZYH4Oq%J]"><value name="pause"><shadow type="math_number" id="+Tk*E;*]#8cttGL;/VN3"><field name="NUM">100</field></shadow></value></block></next></block></next></block></next></block></statement><next><block type="device_show_leds" id="1@4$4uG]|/aOv%umsw`_"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block></xml>
